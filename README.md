@@ -7,7 +7,7 @@
   <h3 align="center">Rails Authentication with JWT</h3>
 
   <p align="center">
-    This template template to jumpstart your projects using jwt!
+    This is a template to jumpstart your projects using jwt!
   </p>
 </div>
 
@@ -81,15 +81,15 @@ This is an example of how to list things you need to use the software and how to
 _Follow these steps to get this project locally._
 
 1. Clone the repo
-   ```sh
+   ```ruby
    git clone https://github.com/barakadanny/rails-jwt.git
    ```
 2. Install dependencies
-   ```sh
+   ```ruby
    bundle install
    ```
 3. Create and migrate the database `config.js`
-   ```js
+   ```ruby
    rails db:create db:migrate
    ```
 
@@ -108,10 +108,9 @@ To register a new user, make a POST request to /registrations with a JSON payloa
 * password
 * password_confirmation
 
-<!-- ruby codes -->
 Example
 
-```ruby
+```json
   {
   "user": {
     "email": "johndoe@example.com",
@@ -121,7 +120,22 @@ Example
   }
 ```
 
-Logging in
+Logging a new user 
+
+* email
+* password
+
+Example
+
+```json
+  {
+  "user": {
+    "email": "johndoe@example.com",
+    "password": "password"
+    }
+  }
+
+```
 
 To log out a user, make a DELETE request to /logout.
 

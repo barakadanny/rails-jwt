@@ -72,7 +72,6 @@ Here's why use this template:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * Ruby 2.6.5 or higher
 * Rails 6.0.3 or higher
 
@@ -198,8 +197,6 @@ Baraka Danny - [LinkedIn](https://www.linkedin.com/in/danny-baraka/)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Jordan Hudgens](https://github.com/jordanhudgens)
 
